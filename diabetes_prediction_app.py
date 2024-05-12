@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 
 # Load the trained model
-model_path = r"C:\Users\91998\OneDrive\Documents\diabetes_prediction_model.joblib"  # Specify the path to your model
+model_path = "diabetes_prediction_model.joblib"  # Specify the path to your model
 model = load(model_path)
 
 # Title of the application
